@@ -79,16 +79,17 @@
 
 
 
-<meta name="description" content="记录学习的技能和遇到的问题">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Fly-Skylineの博客">
-<meta property="og:url" content="http://Fly-skyline.github.io/index.html">
+<meta name="description" content="基于OpenCV-Dnn的分类测试DemoOpenCV-Dnn简介OpenCV3.3已经将深度学习DNN模块从opencv_contrib中移到了OpenCV正式发布模块中，当前DNN模块最早来自Tiny-dnn，可以加载预先训练好的Caffe模型数据，OpenCV做了近一步扩展支持所有主流的深度学习框架训练生成与导出模型数据加载，常见的有如下：CaffeTensorFlowTorch/PyTor">
+<meta property="og:type" content="article">
+<meta property="og:title" content="基于OpenCV-Dnn的分类测试Demo">
+<meta property="og:url" content="http://Fly-skyline.github.io/2017/12/24/基于OpenCV-Dnn的分类测试Demo/index.html">
 <meta property="og:site_name" content="Fly-Skylineの博客">
-<meta property="og:description" content="记录学习的技能和遇到的问题">
+<meta property="og:description" content="基于OpenCV-Dnn的分类测试DemoOpenCV-Dnn简介OpenCV3.3已经将深度学习DNN模块从opencv_contrib中移到了OpenCV正式发布模块中，当前DNN模块最早来自Tiny-dnn，可以加载预先训练好的Caffe模型数据，OpenCV做了近一步扩展支持所有主流的深度学习框架训练生成与导出模型数据加载，常见的有如下：CaffeTensorFlowTorch/PyTor">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2017-12-24T10:01:31.901Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Fly-Skylineの博客">
-<meta name="twitter:description" content="记录学习的技能和遇到的问题">
+<meta name="twitter:title" content="基于OpenCV-Dnn的分类测试Demo">
+<meta name="twitter:description" content="基于OpenCV-Dnn的分类测试DemoOpenCV-Dnn简介OpenCV3.3已经将深度学习DNN模块从opencv_contrib中移到了OpenCV正式发布模块中，当前DNN模块最早来自Tiny-dnn，可以加载预先训练好的Caffe模型数据，OpenCV做了近一步扩展支持所有主流的深度学习框架训练生成与导出模型数据加载，常见的有如下：CaffeTensorFlowTorch/PyTor">
 
 
 
@@ -118,13 +119,13 @@
 
 
 
-  <link rel="canonical" href="http://Fly-skyline.github.io/"/>
+  <link rel="canonical" href="http://Fly-skyline.github.io/2017/12/24/基于OpenCV-Dnn的分类测试Demo/"/>
 
 
 
 
 
-  <title>Fly-Skylineの博客</title>
+  <title>基于OpenCV-Dnn的分类测试Demo | Fly-Skylineの博客</title>
   
 
 
@@ -143,8 +144,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -237,9 +237,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -269,9 +269,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/12/24/基于OpenCV-Dnn的分类测试Demo/" itemprop="url">基于OpenCV-Dnn的分类测试Demo</a></h1>
+          <h1 class="post-title" itemprop="name headline">基于OpenCV-Dnn的分类测试Demo</h1>
         
 
         <div class="post-meta">
@@ -321,9 +319,7 @@
       
 
       
-        
-          
-            <h1 id="基于OpenCV-Dnn的分类测试Demo"><a href="#基于OpenCV-Dnn的分类测试Demo" class="headerlink" title="基于OpenCV-Dnn的分类测试Demo"></a>基于OpenCV-Dnn的分类测试Demo</h1><h2 id="OpenCV-Dnn简介"><a href="#OpenCV-Dnn简介" class="headerlink" title="OpenCV-Dnn简介"></a>OpenCV-Dnn简介</h2><p>OpenCV3.3已经将深度学习DNN模块从opencv_contrib中移到了OpenCV正式发布模块中，当前DNN模块最早来自Tiny-dnn，<br>可以加载预先训练好的Caffe模型数据，OpenCV做了近一步扩展支持所有主流的深度学习框架训练生成与导出模型数据加<br>载，常见的有如下：<br>Caffe<br>TensorFlow<br>Torch/PyTorch<br>OpenCV中DNN模块已经支持与测试过这些常见的网络模块：<br>AlexNet<br>GoogLeNet v1 (also referred to as Inception-5h)<br>ResNet-34/50/…<br>SqueezeNet v1.1<br>VGG-based FCN (semantical segmentation network)<br>ENet (lightweight semantical segmentation network)<br>VGG-based SSD (object detection network)<br>MobileNet-based SSD (light-weight object detection network)<br>OpenCV通过支持加载这些预先训练好的模型，实现图像分类、对象检测、语义分割、风格迁移等功能。<br>关于如何调用，OpenCV官方提供了GoogLeNet的示例：<a href="https://docs.opencv.org/trunk/d5/de7/tutorial_dnn_googlenet.html" target="_blank" rel="noopener">https://docs.opencv.org/trunk/d5/de7/tutorial_dnn_googlenet.html</a>。  </p>
+        <h1 id="基于OpenCV-Dnn的分类测试Demo"><a href="#基于OpenCV-Dnn的分类测试Demo" class="headerlink" title="基于OpenCV-Dnn的分类测试Demo"></a>基于OpenCV-Dnn的分类测试Demo</h1><h2 id="OpenCV-Dnn简介"><a href="#OpenCV-Dnn简介" class="headerlink" title="OpenCV-Dnn简介"></a>OpenCV-Dnn简介</h2><p>OpenCV3.3已经将深度学习DNN模块从opencv_contrib中移到了OpenCV正式发布模块中，当前DNN模块最早来自Tiny-dnn，<br>可以加载预先训练好的Caffe模型数据，OpenCV做了近一步扩展支持所有主流的深度学习框架训练生成与导出模型数据加<br>载，常见的有如下：<br>Caffe<br>TensorFlow<br>Torch/PyTorch<br>OpenCV中DNN模块已经支持与测试过这些常见的网络模块：<br>AlexNet<br>GoogLeNet v1 (also referred to as Inception-5h)<br>ResNet-34/50/…<br>SqueezeNet v1.1<br>VGG-based FCN (semantical segmentation network)<br>ENet (lightweight semantical segmentation network)<br>VGG-based SSD (object detection network)<br>MobileNet-based SSD (light-weight object detection network)<br>OpenCV通过支持加载这些预先训练好的模型，实现图像分类、对象检测、语义分割、风格迁移等功能。<br>关于如何调用，OpenCV官方提供了GoogLeNet的示例：<a href="https://docs.opencv.org/trunk/d5/de7/tutorial_dnn_googlenet.html" target="_blank" rel="noopener">https://docs.opencv.org/trunk/d5/de7/tutorial_dnn_googlenet.html</a>。  </p>
 <hr>
 <h2 id="基于OpenCV-Dnn的分类测试Demo-1"><a href="#基于OpenCV-Dnn的分类测试Demo-1" class="headerlink" title="基于OpenCV-Dnn的分类测试Demo"></a>基于OpenCV-Dnn的分类测试Demo</h2><p>本文Demo主要参考了OpenCV的官方示例，对相关步骤简单封装成了类CClassifierDnn以便工程中调用。（建议先阅读OpenCV的<a href="https://docs.opencv.org/trunk/d5/de7/tutorial_dnn_googlenet.html" target="_blank" rel="noopener">官方示例</a>）  </p>
 <ul>
@@ -430,8 +426,6 @@ void CClassifierDnn::getMaxClass(const cv::Mat &amp; probBlob, int &amp; classId
 </code></pre><hr>
 <p>限于篇幅这里只张贴了核心代码，完整代码和测试工程，以及一些后续的更新版本，请移步<a href="https://fly-skyline.github.io/">Fly-SkylineのGitHub</a>  </p>
 
-          
-        
       
     </div>
     
@@ -448,153 +442,28 @@ void CClassifierDnn::getMaxClass(const cv::Mat &amp; probBlob, int &amp; classId
       
 
       
-
-      
-
       
       
-        <div class="post-eof"></div>
+
       
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://Fly-skyline.github.io/2017/12/09/My-First-Post/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Fly-Skyline">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Fly-Skylineの博客">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/12/09/My-First-Post/" itemprop="url">My First Post</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-12-09T22:05:03+08:00">
-                2017-12-09
-              </time>
+              <a href="/2017/12/09/My-First-Post/" rel="next" title="My First Post">
+                <i class="fa fa-chevron-left"></i> My First Post
+              </a>
             
+          </div>
 
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
             
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/CateTest/" itemprop="url" rel="index">
-                    <span itemprop="name">CateTest</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -604,138 +473,11 @@ void CClassifierDnn::getMaxClass(const cv::Mat &amp; probBlob, int &amp; classId
   </article>
 
 
-    
-      
 
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://Fly-skyline.github.io/2017/12/09/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Fly-Skyline">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Fly-Skylineの博客">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/12/09/hello-world/" itemprop="url">Hello World</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-12-09T21:57:46+08:00">
-                2017-12-09
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-          
-        
+    <div class="post-spread">
       
     </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
   </div>
-  
-  
-  
-  </article>
-
-
-    
-  </section>
-
-  
 
 
           </div>
@@ -743,6 +485,10 @@ void CClassifierDnn::getMaxClass(const cv::Mat &amp; probBlob, int &amp; classId
 
 
           
+
+  
+
+
 
         </div>
         
@@ -763,8 +509,17 @@ void CClassifierDnn::getMaxClass(const cv::Mat &amp; probBlob, int &amp; classId
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -846,6 +601,22 @@ void CClassifierDnn::getMaxClass(const cv::Mat &amp; probBlob, int &amp; classId
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#基于OpenCV-Dnn的分类测试Demo"><span class="nav-number">1.</span> <span class="nav-text"><a href="#&#x57FA;&#x4E8E;OpenCV-Dnn&#x7684;&#x5206;&#x7C7B;&#x6D4B;&#x8BD5;Demo" class="headerlink" title="&#x57FA;&#x4E8E;OpenCV-Dnn&#x7684;&#x5206;&#x7C7B;&#x6D4B;&#x8BD5;Demo"></a>&#x57FA;&#x4E8E;OpenCV-Dnn&#x7684;&#x5206;&#x7C7B;&#x6D4B;&#x8BD5;Demo</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#OpenCV-Dnn简介"><span class="nav-number">1.1.</span> <span class="nav-text"><a href="#OpenCV-Dnn&#x7B80;&#x4ECB;" class="headerlink" title="OpenCV-Dnn&#x7B80;&#x4ECB;"></a>OpenCV-Dnn&#x7B80;&#x4ECB;</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#基于OpenCV-Dnn的分类测试Demo-1"><span class="nav-number">1.2.</span> <span class="nav-text"><a href="#&#x57FA;&#x4E8E;OpenCV-Dnn&#x7684;&#x5206;&#x7C7B;&#x6D4B;&#x8BD5;Demo-1" class="headerlink" title="&#x57FA;&#x4E8E;OpenCV-Dnn&#x7684;&#x5206;&#x7C7B;&#x6D4B;&#x8BD5;Demo"></a>&#x57FA;&#x4E8E;OpenCV-Dnn&#x7684;&#x5206;&#x7C7B;&#x6D4B;&#x8BD5;Demo</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -979,6 +750,10 @@ void CClassifierDnn::getMaxClass(const cv::Mat &amp; probBlob, int &amp; classId
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.3"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.3"></script>
+
+
 
   
 
